@@ -1,0 +1,101 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9e6ff;
+    padding: 40px;
+}
+img{
+    width: 100%;
+}
+
+.SiteArea{
+    background-color: white;
+    max-width: 960px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px 200px;
+    text-align: center;
+}
+
+header{
+    padding: 60px 0 50px;
+    text-align: center;
+    
+}
+
+h1{
+  margin-bottom: 15px;  
+  color: #990000;
+  font-size:36px;
+}
+
+header p{
+   color: #505050;
+   font-size:18px;
+}
+.ContentSection{
+    /* margin-top: 40px; */
+    color: #505050;
+   font-size:18px;
+   text-align: center;
+   line-height: 120%;
+}
+.ContentSection p{
+    margin-top: 40px;
+}
+
+.ContentSection p span{
+    font-weight: bold;
+    color: #4d4d4d;
+}
+.LinkSection{
+    margin-top: 40px;
+    
+}
+a{
+    display: block;
+    padding: 15px;
+    font-size: 24px;
+    background-color: #4d4d4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 27px;
+
+}
+.HelpSection{
+    margin-top: 40px;
+}
+.HelpSection h3{
+    font-size: 22px;
+    margin-bottom: 8px;
+    color: #4d4d4d;
+    letter-spacing: 1px;
+}
+.HelpSection p{
+    color:#505050;
+    letter-spacing: 1px;
+}
+
+footer{
+    margin-top: 40px;
+}
+
+footer p{
+    color: #505050;
+    font-size:18px;
+    text-align: center;
+    line-height: 120%;
+}
+
+footer p:first-child{
+    margin-bottom: 20px;
+}
+footer p:last-child{
+    font-weight: bolder;
+}
